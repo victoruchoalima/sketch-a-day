@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box svg {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+body {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.box-container {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
