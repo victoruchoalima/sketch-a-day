@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box svg {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.box-container {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.box {
+  overflow: hidden;
+  background-color: white;
+}
