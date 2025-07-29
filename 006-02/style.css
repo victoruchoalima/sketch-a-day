@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box svg {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(10, 20px);
+  grid-gap: 5px;
+}
+.box {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  background-color: white;
+}
