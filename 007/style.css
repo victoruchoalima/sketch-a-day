@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box svg {
+  display: block;
+}
+
+.box {
+  border: 1px white solid;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
