@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #303026;
+}
+
+.palavra {
+  color: white;
+  font-family: monospace;
+}
+
+.word16,
+.word11 {
+  color: #d45722;
+}
