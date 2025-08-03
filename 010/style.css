@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.palavra {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  font-family: monospace;
+  gap: 1px;
+}
+
+.palavra div {
+  background-color: white;
+}
