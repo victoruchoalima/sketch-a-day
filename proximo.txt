@@ -1,0 +1,2 @@
+investigar alguma animação tentando produzir o efeito de flipping cards (rotationX;rotationY) tentar criar animações com a frente e o verso, com os cards parando em pontos distintos, etc.
+investigar alguma animação utilizando mask:"lines"
