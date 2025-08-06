@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  min-height: 170dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 10px;
+}
+
+.section {
+  min-height: auto;
+  display: flex;
+  align-items: center;
+}
+.section svg {
+  display: block;
+  position: relative;
+  left: -200px;
+}
