@@ -1,0 +1,72 @@
+html,
+body {
+  background: black;
+}
+
+.box {
+  /* --box-color: transparent; */
+  background-color: var(--box-color);
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: outline-color 0.4s ease;
+  outline: 1px solid transparent;
+  outline-offset: 4px;
+}
+.box:hover {
+  outline-color: var(--box-color);
+}
+#smooth-content {
+  justify-items: center;
+}
+.title {
+  font-family: monospace;
+  margin-top: 100px;
+  color: white;
+}
+.btn {
+  padding: 10px;
+  border-radius: 99999px;
+  background-color: black;
+  color: white;
+  border: solid;
+  font-family: monospace;
+  transition: background-color 0.5s ease, color 0.5s ease,
+    border-color 0.5s ease;
+}
+.btn:hover {
+  background-color: var(--btn-color);
+  border: solid var(--btn-color);
+  color: black;
+}
+.btn-0 {
+  --btn-color: rgb(0, 102, 255);
+}
+.btn-1 {
+  --btn-color: rgb(255, 136, 0);
+}
+.btn-2 {
+  --btn-color: rgb(67, 146, 3);
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 400px;
+}
+.box-0 {
+  --box-color: rgb(0, 102, 255);
+}
+.box-1 {
+  --box-color: rgb(255, 136, 0);
+}
+.box-2 {
+  --box-color: rgb(67, 146, 3);
+}
+.line {
+  height: 1800px;
+}
