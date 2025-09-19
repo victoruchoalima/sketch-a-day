@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 100vh;
+
+  .image-container {
+    position: relative;
+    grid-column: 5/9;
+    grid-row: 5/9;
+    height: 80vh;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+  img {
+    position: absolute;
+    top: -90px;
+    height: 120%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.spacer {
+  height: 300dvh;
+}
