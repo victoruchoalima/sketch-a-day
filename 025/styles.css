@@ -1,0 +1,54 @@
+circle {
+  fill: black;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h1 {
+  color: white;
+  font-family: monospace;
+}
+
+#rect text {
+  pointer-events: none;
+  font-family: monospace;
+  font-size: 9px;
+  fill: white;
+}
+
+body {
+  background-color: black;
+  color: #999;
+  font-family: "Signika Negative", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+svg {
+  overflow: visible;
+  height: 100%;
+
+  /* Fix Safari rendering bug */
+  transform: translateZ(0);
+}
+
+path {
+  stroke-width: 0.5;
+  stroke: transparent;
+}
+
+a {
+  color: #88ce02;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
